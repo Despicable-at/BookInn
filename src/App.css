@@ -69,25 +69,38 @@ nav a.active, nav a:hover {
   z-index: 1; /* Ensure the overlay is above the background image but below text */
 }
 
-.hero h1 {
+.hero-content {
   position: relative;
-  z-index: 2; /* Ensure the text is above the overlay */
-  max-width: 600px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+  text-align: left; /* Align text to the left */
+}
+
+.hero h1 {
   font-size: 48px;
-  text-align: center;
+  max-width: 600px;
+  margin-bottom: 20px;
 }
 
 .highlight {
   color: #ffd401;
 }
 
-.app-buttons img {
-  width: 150px;
-  margin: 10px 10px 0 0;
+.app-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px; /* Space between text and buttons */
+}
+
+.app-btn {
+  width: 180px; /* Ensure both buttons are the same width */
+  margin: 10px 0;
   cursor: pointer;
 }
 
-/* About Section */
 .about, .contact {
   padding: 80px 8%;
 }
@@ -190,6 +203,11 @@ footer {
   .hero h1 {
     font-size: 26px;
   }
+
+  .hero-content {
+    align-items: center;
+    text-align: center; /* Center the text on small screens */
+  }
   
   .contact {
     flex-direction: column;
@@ -199,8 +217,11 @@ footer {
   .contact-img img {
     margin-top: 20px;
   }
-  
-  /* Adjust hero padding for small screens */
+
+  .app-buttons {
+    margin-top: 20px; /* Adjust button spacing for small screens */
+  }
+
   .hero {
     padding: 80px 5%;
   }
