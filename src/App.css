@@ -8,6 +8,8 @@
 body {
   background-color: #fff;
   color: #333;
+  height: 100vh; /* Ensure full height for the page */
+  overflow: hidden; /* Prevent scrolling */
 }
 
 header {
@@ -76,12 +78,16 @@ nav a.active, nav a:hover {
   flex-direction: column;
   align-items: flex-start; /* Align content to the left */
   text-align: left; /* Align text to the left */
+  max-width: 700px; /* Limit max width of text */
 }
 
 .hero h1 {
   font-size: 48px;
-  max-width: 600px;
   margin-bottom: 20px;
+}
+
+.hero h1 span {
+  display: block; /* Ensure "Your", "Accommodation", and "Hub" move to the next line */
 }
 
 .highlight {
@@ -90,14 +96,13 @@ nav a.active, nav a:hover {
 
 .app-buttons {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: flex-start; /* Align buttons to the left */
+  gap: 20px;
   margin-top: 30px; /* Space between text and buttons */
 }
 
 .app-btn {
   width: 180px; /* Ensure both buttons are the same width */
-  margin: 10px 0;
   cursor: pointer;
 }
 
@@ -208,18 +213,10 @@ footer {
     align-items: center;
     text-align: center; /* Center the text on small screens */
   }
-  
-  .contact {
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .contact-img img {
-    margin-top: 20px;
-  }
 
   .app-buttons {
     margin-top: 20px; /* Adjust button spacing for small screens */
+    justify-content: center; /* Center buttons on mobile */
   }
 
   .hero {
