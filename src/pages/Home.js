@@ -11,13 +11,9 @@ const Home = () => {
           <h1>Welcome to Bookinn - Your Ultimate Accommodation Hub</h1>
         </div>
         <div className="app-buttons">
-          <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://via.placeholder.com/150x50.png?text=Get+it+on+Google+Play" alt="Google Play" />
-          </a>
-          <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
-            <img src="https://via.placeholder.com/150x50.png?text=Download+from+App+Store" alt="App Store" />
-          </a>
-        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" />
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" />
+      </div>
       </div>
     </div>
   );
