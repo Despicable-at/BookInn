@@ -16,7 +16,7 @@ header {
   align-items: center;
   padding: 20px 8%;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -56,9 +56,22 @@ nav a.active, nav a:hover {
   color: white;
   padding: 20px;
   box-sizing: border-box;
+  position: relative; /* Ensure overlay can be positioned over the image */
+}
+
+.hero .overlay {
+  position: absolute; /* Position the overlay over the background */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 196, 125, 0.6); /* Green color with translucency */
+  z-index: 1; /* Ensure the overlay is above the background image but below text */
 }
 
 .hero h1 {
+  position: relative;
+  z-index: 2; /* Ensure the text is above the overlay */
   max-width: 600px;
   font-size: 48px;
   text-align: center;
