@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section
       className="hero"
-      style={{ backgroundImage: 'url(https://bookinn-sc77.onrender.com/assets/background1.png)' }} // Set the background image
+      style={{ backgroundImage: 'url(https://bookinn-sc77.onrender.com/assets/12375.jpg)' }} // Set the background image
     >
       <h1>Welcome to <span className="highlight">Bookinn</span> – Your Ultimate Accommodation Hub</h1>
       <div className="app-buttons">
