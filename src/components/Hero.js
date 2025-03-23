@@ -8,12 +8,7 @@ function Hero() {
     >
       <div className="overlay"></div>
       <div className="hero-content">
-        <h1>
-          Welcome to <span className="highlight">Bookinn</span><br />
-          <span>Your</span><br />
-          <span>Accommodation</span><br />
-          <span>Hub</span>
-        </h1>
+        <h1>Welcome to <span className="highlight">Bookinn</span> – Your Ultimate Accommodation Hub</h1>
         <div className="app-buttons">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
