@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Navbar from '../components/Navbar';
+import backgroundImage from '../assets/background1.png'; // Import the image
 
 const Home = () => {
   return (
