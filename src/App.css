@@ -76,8 +76,8 @@ nav a.active, nav a:hover {
   flex-direction: column;
   align-items: flex-start; /* Align content to the left */
   text-align: left; /* Align text to the left */
-  width: 70%; /* Expand width from the right */
-  margin-left: 0; /* Shift left */
+  width: 60%; /* Reduce width to allow more space from the right */
+  margin-left: -10%; /* Shift the content further left */
 }
 
 .hero h1 {
