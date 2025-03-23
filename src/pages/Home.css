@@ -1,7 +1,7 @@
 .home {
   position: relative;
   height: 100vh;
-  background: url('/12323 1.png') no-repeat center center/cover;
+  background: url(${backgroundImage}) no-repeat center center/cover; /* Apply the imported image */
 }
 
 .home-content {
