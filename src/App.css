@@ -52,7 +52,7 @@ nav a.active, nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   color: white;
   padding: 20px;
   box-sizing: border-box;
