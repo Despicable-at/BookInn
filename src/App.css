@@ -82,8 +82,11 @@ nav a.active, nav a:hover {
 
 .hero h1 {
   font-size: 48px;
-  max-width: 600px;
+  max-width: 800px; /* Adjust the width from the right as needed */
   margin-bottom: 20px;
+  text-align: left; /* Align text to the left */
+  word-wrap: break-word; /* Ensure words break correctly if needed */
+  line-height: 1.4; /* Adjust the line height if necessary for better spacing */
 }
 
 .highlight {
