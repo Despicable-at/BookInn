@@ -44,8 +44,9 @@ nav a.active, nav a:hover {
   font-weight: 600;
 }
 
+/* Hero Section */
 .hero {
-  background: url(${process.env.PUBLIC_URL + '/assets/background1.png'}) no-repeat center/cover;
+  background: url('/assets/background1.png') no-repeat center/cover;
   padding: 100px 8%;
   color: #fff;
   display: flex;
@@ -71,6 +72,7 @@ nav a.active, nav a:hover {
   cursor: pointer;
 }
 
+/* About Section */
 .about, .contact {
   padding: 80px 8%;
 }
@@ -85,6 +87,7 @@ nav a.active, nav a:hover {
   color: #00C47D;
 }
 
+/* Contact Section */
 .contact {
   background: #fff;
   display: flex;
@@ -134,6 +137,7 @@ button:hover {
   background: #00a96a;
 }
 
+/* Phone input styling */
 .phone-input {
   display: flex;
   align-items: center;
@@ -152,11 +156,13 @@ button:hover {
   border-left: none;
 }
 
+/* Contact Image */
 .contact-img img {
   max-width: 350px;
   width: 100%;
 }
 
+/* Footer */
 footer {
   background: #00C47D;
   color: #fff;
@@ -164,15 +170,23 @@ footer {
   text-align: center;
 }
 
+/* Media Queries for Mobile Devices */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 26px;
   }
+  
   .contact {
     flex-direction: column;
     text-align: center;
   }
+  
   .contact-img img {
     margin-top: 20px;
+  }
+  
+  /* Adjust hero padding for small screens */
+  .hero {
+    padding: 80px 5%;
   }
 }
