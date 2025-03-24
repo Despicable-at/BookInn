@@ -81,7 +81,7 @@ nav a.active, nav a:hover {
 }
 
 .hero-content h1 {
-  transform: translateY(-30px); /* Adjust the value to move it up or down */
+  transform: translateY(-60px); /* Adjust the value to move it up or down */
 }
 
 .hero h1 {
