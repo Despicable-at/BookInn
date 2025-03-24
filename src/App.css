@@ -282,8 +282,7 @@ footer {
 }
 
 /* New styling for the image section */
-.intro-image,
-.intro-image2 {
+.intro-image {
   position: relative;
 }
 
@@ -294,20 +293,13 @@ footer {
 }
 
 .intro-image img {
-  width: 100%;
+  width: 400px;
   height: auto;
   position: relative;
+  top: 20%;
   z-index: 1; /* Base image */
 }
 
-.intro-image2 img {
-  width: 400px;  /* Made 3 times bigger */
-  position: relative;
-  top: 20%;
-  z-index: 2;
-  /* Removed box-shadow */
-  border-radius: 20px; /* Optional: smooth phone edges */
-}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
