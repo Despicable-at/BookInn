@@ -236,3 +236,33 @@ footer {
     padding: 80px 5%;
   }
 }
+
+/* About page styles */
+.intro-section {
+  padding: 80px 8%;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+}
+
+.intro-content {
+  max-width: 700px;
+}
+
+.intro-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.intro-content h2 .green {
+  color: #00C47D;
+}
+
+.intro-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
