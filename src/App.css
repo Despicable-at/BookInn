@@ -289,7 +289,7 @@ footer {
 
 .intro-image2 img {
   width: 400px;  /* Still big */
-  position: absolute;
+  position: relative;
   top: -80%;      /* Moved up (was 80%) */
   left: 30%;     /* Moved left (was 50%) */
   transform: translate(-50%, -50%);
