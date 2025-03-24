@@ -288,14 +288,13 @@ footer {
 }
 
 .intro-image2 img {
-  width: 400px;  /* Made 3 times bigger */
+  width: 400px;  /* Still big */
   position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center phone on ellipse */
+  top: 20%;      /* Moved up (was 80%) */
+  left: 30%;     /* Moved left (was 50%) */
+  transform: translate(-50%, -50%);
   z-index: 2;
-  /* Removed box-shadow */
-  border-radius: 20px; /* Optional: smooth phone edges */
+  border-radius: 20px;
 }
 
 /* Responsive adjustments */
