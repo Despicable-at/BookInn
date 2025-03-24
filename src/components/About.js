@@ -39,14 +39,15 @@ function About() {
         </div>
       </div>
 
-      <div className="intro-image">
-        <img src="https://bookinn-sc77.onrender.com/assets/Ellipse.png" alt="Ellipse" />
-      </div>
-
-      <div className="intro-image2">
-        <img src="https://bookinn-sc77.onrender.com/assets/h.png" alt="Phone" />
-      </div>
-    
+                <div className="intro-image-container">
+            <div className="intro-image">
+              <img src="https://bookinn-sc77.onrender.com/assets/Ellipse.png" alt="Ellipse" />
+            </div>
+            <div className="intro-image2">
+              <img src="https://bookinn-sc77.onrender.com/assets/h.png" alt="Phone" />
+            </div>
+          </div>
+              
     </section>
   );
 }
