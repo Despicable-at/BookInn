@@ -1,6 +1,6 @@
 import React from 'react';
 
-function IntroSection() {
+function About() {
   return (
     <section className="intro-section">
       <div className="intro-content">
@@ -40,15 +40,15 @@ function IntroSection() {
       </div>
 
       <div className="intro-image">
-        <img src="https://bookinn-sc77.onrender.com/assets/background.png" alt="Accommodation" />
+        <img src="https://bookinn-sc77.onrender.com/assets/Ellipse.png" alt="Ellipse" />
       </div>
 
-      <div className="intro-image">
-        <img src="https://bookinn-sc77.onrender.com/assets/background.png" alt="Accommodation" />
+      <div className="intro-image2">
+        <img src="https://bookinn-sc77.onrender.com/assets/h.png" alt="Phone" />
       </div>
     
     </section>
   );
 }
 
-export default IntroSection;
+export default About;
