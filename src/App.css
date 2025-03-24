@@ -288,10 +288,9 @@ footer {
 }
 
 .intro-image2 img {
-  width: 500px;  /* Made 3 times bigger */
+  width: 400px;  /* Made 3 times bigger */
   position: relative;
   top: 20%;
-  left: 50%;
   z-index: 2;
   /* Removed box-shadow */
   border-radius: 20px; /* Optional: smooth phone edges */
