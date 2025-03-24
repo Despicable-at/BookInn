@@ -41,10 +41,7 @@ function About() {
 
                 <div className="intro-image-container">
             <div className="intro-image">
-              <img src="https://bookinn-sc77.onrender.com/assets/Ellipse.png" alt="Ellipse" />
-            </div>
-            <div className="intro-image2">
-              <img src="https://bookinn-sc77.onrender.com/assets/h.png" alt="Phone" />
+              <img src="https://bookinn-sc77.onrender.com/assets/Frame1.png" alt="Ellipse and Phone" />
             </div>
           </div>
               
