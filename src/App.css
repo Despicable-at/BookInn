@@ -292,7 +292,6 @@ footer {
   position: relative;
   top: -80%;      /* Moved up (was 80%) */
   left: 30%;     /* Moved left (was 50%) */
-  transform: translate(-50%, -50%);
   z-index: 2;
   border-radius: 20px;
 }
