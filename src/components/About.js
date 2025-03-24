@@ -38,6 +38,15 @@ function IntroSection() {
           />
         </div>
       </div>
+
+      <div className="intro-image">
+        <img src="https://bookinn-sc77.onrender.com/assets/background.png" alt="Accommodation" />
+      </div>
+
+      <div className="intro-image">
+        <img src="https://bookinn-sc77.onrender.com/assets/background.png" alt="Accommodation" />
+      </div>
+    
     </section>
   );
 }
