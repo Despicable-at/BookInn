@@ -272,6 +272,7 @@ footer {
   display: flex; /* Ensure the buttons are next to each other */
   justify-content: center; /* Center the buttons horizontally */
   gap: 20px; /* Space between the buttons */
+  align: left;
 }
 
 .app-buttons1 img{
