@@ -283,15 +283,19 @@ footer {
 .intro-image img {
   width: 100%;
   height: auto;
-  position: absolute;
+  position: relative;
   z-index: 1; /* Base image */
 }
 
 .intro-image2 img {
-  width: 400px;  /* Still big */
-  position: relative;
+  width: 600px;  /* Made 3 times bigger */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center phone on ellipse */
   z-index: 2;
-  border-radius: 20px;
+  /* Removed box-shadow */
+  border-radius: 20px; /* Optional: smooth phone edges */
 }
 
 /* Responsive adjustments */
