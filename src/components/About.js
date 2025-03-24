@@ -25,16 +25,16 @@ function About() {
           Start exploring and book your next stay today.
         </p>
 
-        <div className="app-buttons">
+        <div className="app-buttons1">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
             alt="Google Play"
-            className="app-btn"
+            className="app-btn1"
           />
           <img
             src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
             alt="App Store"
-            className="app-btn"
+            className="app-btn1"
           />
         </div>
       </div>
