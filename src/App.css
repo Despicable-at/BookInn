@@ -274,7 +274,7 @@ footer {
   gap: 20px; /* Space between the buttons */
 }
 
-.intro-content .app-button img{
+.intro-content .app-buttons img{
     width: 180px; /* Set a fixed width for the buttons */
   height: auto; /* Maintain the aspect ratio */
   max-width: 100%; /* Ensure the buttons don't overflow */
@@ -297,7 +297,6 @@ footer {
   height: auto;
   position: relative;
   top: 20%;
-  z-index: 1; /* Base image */
 }
 
 
