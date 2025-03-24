@@ -288,13 +288,13 @@ footer {
 }
 
 .intro-image2 img {
-  width: 200px;
+  width: 600px;  /* Made 3 times bigger */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); /* Center phone on ellipse */
   z-index: 2;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Phone shadow */
+  /* Removed box-shadow */
   border-radius: 20px; /* Optional: smooth phone edges */
 }
 
@@ -311,6 +311,6 @@ footer {
   }
 
   .intro-image2 img {
-    width: 150px;
+    width: 300px; /* Still bigger on mobile */
   }
 }
