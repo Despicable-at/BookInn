@@ -8,21 +8,21 @@ function IntroSection() {
           Welcome to <span className="green">Bookinn</span> - Your Ultimate Accommodation Hub
         </h2>
         <p>
-          Finding the perfect place to stay has never been easier.<br>
-          Bookinn brings all types of accommodations under ine<br>
-          umbrella, giving you seamless access to hotels,<br>
-          apartments, guesthouses, and more—all in one app.<br>
-          Whether you are travelling for business, planning a<br>
-          getaway, or looking for a cozy staycation, Bookinn ensures<br>
+          Finding the perfect place to stay has never been easier.<br />
+          Bookinn brings all types of accommodations under one<br />
+          umbrella, giving you seamless access to hotels,<br />
+          apartments, guesthouses, and more—all in one app.<br />
+          Whether you are travelling for business, planning a<br />
+          getaway, or looking for a cozy staycation, Bookinn ensures<br />
           you find the best options tailored to your needs.
         </p>
         <p>
-          Enjoy a smooth booking experience with real-time<br>
-          availability, secure payments, and verified listings.<br>
-          With Bookin, convenience meets comfort at your fingertips.
+          Enjoy a smooth booking experience with real-time<br />
+          availability, secure payments, and verified listings.<br />
+          With Bookinn, convenience meets comfort at your fingertips.
         </p>
         <p>
-          Start exploring and book your next stay today
+          Start exploring and book your next stay today.
         </p>
 
         <div className="app-buttons">
