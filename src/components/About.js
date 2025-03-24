@@ -2,7 +2,15 @@ import React from 'react';
 
 function About() {
   return (
-    <section className="intro-section">
+    <section
+      id="about"
+      className="about1"
+      style={{
+        backgroundImage: 'url(https://bookinn-sc77.onrender.com/assets/background.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
       <div className="intro-content">
         <h2>
           Welcome to <span className="green">Bookinn</span> - Your Ultimate Accommodation Hub
