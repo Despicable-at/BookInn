@@ -111,14 +111,10 @@ nav a.active, nav a:hover {
   cursor: pointer;
 }
 
-.about, .contact {
+.about1, .contact {
   padding: 80px 8%;
 }
 
-.about {
-  background: #f9f9f9;
-  text-align: center;
-}
 
 .about h2 {
   margin-bottom: 20px;
