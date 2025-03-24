@@ -283,15 +283,15 @@ footer {
 .intro-image img {
   width: 100%;
   height: auto;
-  position: relative;
+  position: absolute;
   z-index: 1; /* Base image */
 }
 
 .intro-image2 img {
   width: 400px;  /* Still big */
   position: relative;
-  top: -80%;      /* Moved up (was 80%) */
-  left: 30%;     /* Moved left (was 50%) */
+  top: 20%;      /* Moved up (was 80%) */
+  left: 60%;     /* Moved left (was 50%) */
   z-index: 2;
   border-radius: 20px;
 }
