@@ -22,11 +22,6 @@ header {
   z-index: 10;
 }
 
-.logo {
-  font-size: 28px;
-  font-weight: bold;
-  color: #00C47D;
-}
 
 .logo img {
   width: 50px;  /* Adjust the width as needed */
