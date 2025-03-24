@@ -28,6 +28,12 @@ header {
   color: #00C47D;
 }
 
+.logo img {
+  width: 150px;  /* Adjust the width as needed */
+  height: auto;  /* Maintain the aspect ratio */
+}
+
+
 .logo span {
   color: #00C47D;
 }
