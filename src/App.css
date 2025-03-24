@@ -288,9 +288,9 @@ footer {
 }
 
 .intro-image2 img {
-  width: 600px;  /* Made 3 times bigger */
+  width: 400px;  /* Made 3 times bigger */
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%); /* Center phone on ellipse */
   z-index: 2;
