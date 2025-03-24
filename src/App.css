@@ -94,15 +94,15 @@ nav a.active, nav a:hover {
 }
 
 .app-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 30px; /* Space between text and buttons */
+  display: flex; /* Ensure the buttons are next to each other */
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Space between the buttons */
 }
 
-.app-btn {
-  width: 180px; /* Ensure both buttons are the same width */
-  margin: 10px 0;
+.app-buttons img {
+  width: 180px; /* Set a fixed width for the buttons */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 100%; /* Ensure the buttons don't overflow */
   cursor: pointer;
 }
 
