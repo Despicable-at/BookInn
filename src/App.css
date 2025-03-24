@@ -87,7 +87,6 @@ nav a.active, nav a:hover {
   text-align: left; /* Align text to the left */
   word-wrap: break-word; /* Ensure words break correctly if needed */
   line-height: 1.4; /* Adjust the line height if necessary for better spacing */
-  margin-top: -40px; /* Adjust the value to move it up or down as needed */
 }
 
 .highlight {
