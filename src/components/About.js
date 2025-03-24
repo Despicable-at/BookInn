@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'; // Ensure you import your CSS if not done already
 
 function About() {
   return (
@@ -9,6 +10,7 @@ function About() {
         backgroundImage: 'url(https://bookinn-sc77.onrender.com/assets/background.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <div className="intro-content">
@@ -47,12 +49,11 @@ function About() {
         </div>
       </div>
 
-                <div className="intro-image-container">
-            <div className="intro-image">
-              <img src="https://bookinn-sc77.onrender.com/assets/Frame1.png" alt="Ellipse and Phone" />
-            </div>
-          </div>
-              
+      <div className="intro-image-container">
+        <div className="intro-image">
+          <img src="https://bookinn-sc77.onrender.com/assets/Frame1.png" alt="Ellipse and Phone" />
+        </div>
+      </div>
     </section>
   );
 }
