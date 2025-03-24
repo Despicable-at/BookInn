@@ -290,8 +290,6 @@ footer {
 .intro-image2 img {
   width: 400px;  /* Still big */
   position: relative;
-  top: 20%;      /* Moved up (was 80%) */
-  left: 60%;     /* Moved left (was 50%) */
   z-index: 2;
   border-radius: 20px;
 }
