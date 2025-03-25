@@ -35,20 +35,21 @@ function About() {
         </p>
 
         <div 
-  className="app-buttons1" 
-  style={{ display: 'flex', justifyContent: 'flex-start', gap: '20px' }}
->
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-    alt="Google Play"
-    className="app-btn1"
-  />
-  <img
-    src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-    alt="App Store"
-    className="app-btn1"
-  />
-</div>
+          className="app-buttons1" 
+          style={{ display: 'flex', justifyContent: 'flex-start', gap: '20px' }}
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+            alt="Google Play"
+            className="app-btn1"
+          />
+          <img
+            src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+            alt="App Store"
+            className="app-btn1"
+          />
+        </div>
+      </div> {/* <-- This was missing */}
 
       <div className="intro-image-container">
         <div className="intro-image">
