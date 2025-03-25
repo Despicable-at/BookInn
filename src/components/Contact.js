@@ -1,6 +1,22 @@
 import React from 'react';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 function Contact() {
+  const [phone, setPhone] = useState('');
+
+  const handlePhoneChange = (e) => {
+    let input = e.target.value.replace(/\D/g, ''); // Remove non-numeric
+    if (input.length > 9) input = input.slice(0, 9); // Max 9 digits
+    
+    // Format: 2-3-4 (XX XXX XXXX)
+    let formatted = '';
+    if (input.length <= 2) formatted = input;
+    else if (input.length <= 5) formatted = `${input.slice(0, 2)} ${input.slice(2)}`;
+    else formatted = `${input.slice(0, 2)} ${input.slice(2, 5)} ${input.slice(5)}`;
+
+    setPhone(formatted);
+  };
   return (
     <section id="contact" className="contact" style={{
       backgroundImage: 'url(https://bookinn-sc77.onrender.com/assets/background.png)',
@@ -15,7 +31,13 @@ function Contact() {
           <input type="text" placeholder="Name" className="input name" />
           <div className="phone-input">
             <span className="flag">🇬🇭 +233</span>
-            <input type="text" placeholder="XX-XXX-XXXX" className="input phone" />
+            <input 
+              type="text" 
+              placeholder="XX XXX XXXX" 
+              className="input phone"
+              value={phone}
+              onChange={handlePhoneChange}
+            />
           </div>
         </div>
 
