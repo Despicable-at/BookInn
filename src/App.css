@@ -130,12 +130,15 @@ nav a.active, nav a:hover {
   align-items: center;
   justify-content: space-between; /* Space between content and images */
   overflow-x: hidden;
+  position: relative;
 }
 .contact-form {
   width: 100%;
+  position: relative;
   max-width: 600px;
   padding: 20px;
   border-radius: 10px;
+  top: -70px;
 }
 
 .contact-form h2 {
