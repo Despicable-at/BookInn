@@ -49,8 +49,10 @@ function Contact() {
         <button className="send-btn">Send</button>
       </div>
 
-      <div className="contact-img">
-        <img src="https://static.vecteezy.com/system/resources/previews/007/581/047/original/search-house-for-rent-or-sale-illustration-concept-free-vector.jpg" alt="Contact Illustration" />
+      <div className="intro-image-container">
+        <div className="intro-image">
+          <img src="https://bookinn-sc77.onrender.com/assets/House.png" alt="House and Magnifier" />
+        </div>
       </div>
     </section>
   );
