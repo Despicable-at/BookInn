@@ -250,7 +250,8 @@ footer {
 }
 
 .intro-content h2 {
-  font-size: 32px;
+  max-width: 900px;
+  font-size: 40px;
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
