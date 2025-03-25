@@ -145,6 +145,7 @@ nav a.active, nav a:hover {
   font-size: 32px;
   margin-bottom: 20px;
   font-weight: 700;
+  position: relative;
 }
 
 .form-row {
