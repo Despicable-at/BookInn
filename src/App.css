@@ -129,6 +129,7 @@ nav a.active, nav a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between; /* Space between content and images */
+  overflow-x: hidden;
 }
 .contact-form {
   width: 100%;
