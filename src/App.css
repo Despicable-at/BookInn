@@ -123,53 +123,84 @@ nav a.active, nav a:hover {
 }
 
 /* Contact Section */
-.contact {
+.contact-form {
+  width: 100%;
+  max-width: 600px;
   background: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.contact h2 {
-  width: 100%;
+.contact-form h2 {
+  font-size: 28px;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-weight: 700;
 }
 
-form {
-  flex: 1;
-  min-width: 280px;
+.form-row {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
-input, textarea {
+.input {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0 10px;
+  background: #fff;
+  width: 100%;
+}
+
+.phone-input .flag {
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+textarea.input {
+  height: 150px;
+  resize: none;
+}
+
+.send-btn {
   width: 100%;
   padding: 15px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
-
-textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
-button {
-  background: #00C47D;
+  background-color: #2ec36b;
   color: #fff;
-  padding: 15px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
-button:hover {
-  background: #00a96a;
+.send-btn:hover {
+  background-color: #28a65d;
+}
+
+/* ✅ RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+  
+  .phone-input {
+    flex-direction: row;
+  }
 }
 
 /* Phone input styling */
