@@ -2,28 +2,28 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section id="contact" className="contact"style={{
-        backgroundImage: 'url(https://bookinn-sc77.onrender.com/assets/background.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}>
-      <div class="contact-form">
-          <h2>Send Us a Message Today</h2>
-          
-          <div class="form-row">
-            <input type="text" placeholder="Name" class="input name">
-            <div class="phone-input">
-              <span class="flag">🇬🇭 +233</span>
-              <input type="text" placeholder="XX-XXX-XXXX" class="input phone">
-            </div>
+    <section id="contact" className="contact" style={{
+      backgroundImage: 'url(https://bookinn-sc77.onrender.com/assets/background.png)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+    }}>
+      <div className="contact-form">
+        <h2>Send Us a Message Today</h2>
+
+        <div className="form-row">
+          <input type="text" placeholder="Name" className="input name" />
+          <div className="phone-input">
+            <span className="flag">🇬🇭 +233</span>
+            <input type="text" placeholder="XX-XXX-XXXX" className="input phone" />
           </div>
-          
-          <input type="email" placeholder="Email" class="input full-width">
-          
-          <textarea placeholder="Message here" class="input full-width"></textarea>
-          
-          <button class="send-btn">Send</button>
+        </div>
+
+        <input type="email" placeholder="Email" className="input full-width" />
+
+        <textarea placeholder="Message here" className="input full-width"></textarea>
+
+        <button className="send-btn">Send</button>
       </div>
 
       <div className="contact-img">
