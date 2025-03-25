@@ -123,6 +123,13 @@ nav a.active, nav a:hover {
 }
 
 /* Contact Section */
+.contact {
+    padding: 80px 8%;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between content and images */
+}
 .contact-form {
   width: 100%;
   max-width: 600px;
