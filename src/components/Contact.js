@@ -2,8 +2,12 @@ import React from 'react';
 
 function Contact() {
   return (
-    <section id="contact" className="contact">
-      <h2>Send Us a Message Today</h2>
+    <section id="contact" className="contact"style={{
+        backgroundImage: 'url(https://bookinn-sc77.onrender.com/assets/background.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}>
       <div class="contact-form">
           <h2>Send Us a Message Today</h2>
           
