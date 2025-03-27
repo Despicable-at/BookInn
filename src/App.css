@@ -76,10 +76,10 @@ nav a.active, nav a:hover {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align content to the left */
-  text-align: left; /* Align text to the left */
+  align-items: center; /* Align content in the center */
+  text-align: center; /* Align text in the cneter */
   width: 60%; /* Reduce width to allow more space from the right */
-  margin-left: -25%; /* Shift the content further left */
+  /*margin-left: -25%; /* Shift the content further left */
 }
 
 .hero-content h1 {
@@ -88,9 +88,9 @@ nav a.active, nav a:hover {
 
 .hero h1 {
   font-size: 48px;
-  max-width: 700px; /* Adjust the width from the right as needed */
+  max-width: 20px; /* Adjust the width from the right as needed */
   margin-bottom: 20px;
-  text-align: left; /* Align text to the left */
+  text-align: center; /* Align text to the left */
   word-wrap: break-word; /* Ensure words break correctly if needed */
   line-height: 1.4; /* Adjust the line height if necessary for better spacing */
 }
