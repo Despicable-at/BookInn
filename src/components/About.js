@@ -44,7 +44,7 @@ function About() {
             className="app-btn1"
           />
           <img
-            src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Apple-badge%402x.png"
             alt="App Store"
             className="app-btn1"
           />
